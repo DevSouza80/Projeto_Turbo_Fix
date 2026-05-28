@@ -760,9 +760,8 @@ section.session-contact .flex-all {
 }
 
 
-/* Card escuro do formulário */
 .form-card {
- background-color: var(--color-ten);
+  background-color: var(--color-ten);
   border: 1px solid var(--color-eleven);
   border-radius: 12px;
   padding: 2rem;
@@ -771,7 +770,6 @@ section.session-contact .flex-all {
 }
 
 
-/* Linha com dois campos lado a lado */
 .form-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -779,19 +777,17 @@ section.session-contact .flex-all {
   margin-bottom: 1rem;
 }
 
-/* Grupo label + campo */
+
 .form-group {
   display: flex;
   flex-direction: column;
   gap: 6px;
 }
 
-/* Campo que ocupa as duas colunas */
 .form-group.full {
   grid-column: 1 / -1;
 }
 
-/* Labels em maiúsculas pequenas */
 label {
   font-size: 11px;
   font-weight: 600;
@@ -802,7 +798,7 @@ label {
   text-transform: uppercase;
 }
 
-/* Estilo dos campos */
+
 input,
 select,
 textarea {
@@ -829,7 +825,6 @@ textarea:focus {
   border-color:var(--color-two);
 }
 
-/* Seta do select customizada */
 select {
   appearance: none;
   background-image: url("data:image/svg+xml,...");
@@ -838,7 +833,7 @@ select {
   cursor: pointer;
 }
 
-/* Campo de data no tema escuro */
+
 input[type="date"] {
   color-scheme: dark;
 }
@@ -848,7 +843,6 @@ textarea {
   min-height: 100px;
 }
 
-/* Botão vermelho */
 .btn-contact {
   background:var(--color-two);
   border: none;
@@ -1059,7 +1053,7 @@ footer.footer-lp .flex-all {
     padding:20px 2%;
     display: flex;
     align-items: center;
-   justify-content: space-between;
+    justify-content: space-between;
     background-color:var(--color-sixteen);
     border-top: 1px solid var( --color-seventeen);
 }
@@ -1074,6 +1068,62 @@ footer.footer-lp .flex-all {
  color:var(--color-one);
  font-size: 1rem;
  font-family:var(--font-inter);
+}
+
+/* WhatsApp icon */
+/* Botão flutuante do WhatsApp */
+.whatsapp-float {
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    bottom: 25px;
+    right: 25px;
+    background-color: var(--color-two);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    cursor: pointer;
+    animation: pulse 1.6s infinite;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+}
+
+/* Ícone */
+.whatsapp-icon {
+    width: 40px;
+    height: 40px;
+}
+
+/* Animação de pulsar */
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.16); }
+    100% { transform: scale(1); }
+}
+
+/* Tooltip — Mensagem ao passar o mouse */
+.whatsapp-tooltip {
+    position: absolute;
+    right: 80px;
+    background:var(--color-nine);
+    color:var(--color-one);
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-size: 14px;
+    opacity: 0;
+    white-space: nowrap;
+    pointer-events: none;
+    transform: translateY(0);
+    transition: 0.3s ease;
+}
+
+.whatsapp-float:hover .whatsapp-tooltip {
+    opacity: 1;
+    transform: translateY(-5px);
 }
 /**/
 
