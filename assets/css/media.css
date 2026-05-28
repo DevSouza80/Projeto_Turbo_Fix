@@ -1,0 +1,476 @@
+/* Media Queries */
+
+@media screen and (max-width:1440px){
+.title-about h2 {
+    color:var(--color-one);
+    font-size: 2.3rem;
+    font-family:var(--font-oswald);
+    max-width:600px;
+    text-transform: uppercase;
+}
+
+}
+
+@media screen and (max-width:1221px){
+
+.image-item {
+    width: 300px;
+    height:300px;
+}
+}
+
+@media screen and (max-width:1217px){
+.content-area {
+    width: 160px;
+    
+}
+}
+
+@media screen and (max-width:1163px){
+.content-area {
+    width: 150px;
+    
+}
+}
+
+@media screen and (max-width:1113px){
+.content-area {
+    width: 134px;
+    
+}
+
+
+.title-area h2 {
+    font-size: 1.4rem;
+   
+}
+
+
+}
+
+@media screen and (max-width:1080px){
+    
+.full-layer {
+    width:250px;
+}
+}
+
+
+@media screen and (max-width:1070px){
+
+
+.cases-inner {
+    flex-wrap: wrap;
+}
+
+
+
+}
+
+
+@media screen  and (max-width:1006px){
+
+
+    .left-img img{
+       width: 440px;
+    }  
+}
+
+
+
+@media screen and (max-width:978px){
+.grid-galery {
+   max-width: 400px;
+    
+}
+
+.image-item {
+    width: 250px;
+    height:250px;
+}
+}
+
+
+
+@media screen and (max-width:957px){
+section.session-contact .flex-all {
+   flex-wrap: wrap;
+}
+
+.right-report {
+    display:flex;
+    align-items: center;
+    gap:0.8rem;
+
+}
+}
+
+@media screen and (max-width:973px){
+    section.session-about .flex-all {
+    padding:70px 2%;
+}
+
+
+
+
+}
+
+
+@media screen and (max-width:930px){
+    section.session-about .flex-all {
+    padding:70px 2%;
+}
+
+
+
+
+}
+
+@media screen and (max-width:872px){
+    nav.nav-desktop ul {
+      display:none;
+    }
+
+    header.menu-navigation .btn-bg a {
+        display:none;
+    }
+
+    .list-mobile {
+        display:block;
+    }
+
+    .menu-mobile {
+        display:block;
+    }
+}
+
+
+@media screen and (max-width:869px) {
+
+section.session-about .flex-all {
+flex-direction: column;
+}
+
+.cases-inner {
+    padding: 20px 0;
+   justify-content: center;
+}
+.sub-about h3 {
+    text-align: center;
+}
+
+.title-about h2 {
+    font-size: 2.3rem;
+    max-width:550px;
+    text-align: center;
+    margin:10px auto;
+}
+
+
+.text-about p {
+    text-align:center;
+    font-size: 1rem;
+    max-width:510px;
+    margin:10px auto;
+}
+}
+
+
+@media screen and (max-width:840px){
+.grid-galery {
+    grid-template-columns: repeat(2,1fr);
+   max-width: 400px;
+    
+}
+
+
+}
+
+@media screen and (max-width:814px){
+.full-layer {
+    width:204px;
+}
+
+.title-tree p {
+    font-size:0.8rem;
+}
+}
+
+
+@media screen and (max-width:773px) {
+
+
+section.hero-bg {
+    background-position:right;
+   
+}
+
+
+section.session-servicos .sub-title {
+     text-align: center;
+}
+
+.title-servicos h2 {
+    font-size: 2rem;
+    max-width:400px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.wrapper-main {
+    padding:0px;
+    position: relative;
+    top:158px;
+    
+}
+
+    
+.space-grop {
+   margin:0px auto;
+}
+
+.title-main  h1{
+ font-size: 2.5rem;
+ max-width: 430px;
+ text-align: center;
+ margin: 10px auto;
+}
+
+
+.text-main p {
+    font-size: 1rem;
+    max-width: 450px;
+    text-align: center;
+    margin:10px auto;
+}
+
+.buttons-main {
+    justify-content: center;
+}
+
+main .btn-bg a{
+  
+  padding:14px 10px;
+  
+}
+
+.btn-servicos a {
+   
+    padding:14px 10px;
+
+}
+
+.diferencial-single {
+   justify-content:center;
+}
+}
+
+@media screen and (max-width:767px){
+.text-footer p {
+    max-width: 350px;
+}
+}
+
+@media screen and (max-width:767px){
+.text-term p {
+    font-size:0.8rem;
+}
+
+.autor-footer p {
+ font-size: 0.8rem;
+}
+}
+
+@media screen and (max-width:709px){
+footer.footer-lp .flex-all {
+    flex-direction: column;
+}
+
+.split-dark {
+    text-align: center;
+}
+
+.logo-footer {
+   justify-content:center;
+}
+
+.text-footer p {
+    max-width: 380px;
+    margin: 0 auto;
+}
+
+.icon-social {
+   justify-content: center;
+}
+
+.links-menu {
+    text-align: center;
+}
+
+.loc-footer {
+    text-align: center;
+}
+
+.text-loc{
+     margin:10px auto;
+}
+
+.email-footer {
+     margin: 0 auto;
+}
+
+
+
+}
+
+@media screen and (max-width:670px){
+.right-report {
+   flex-direction: column;
+
+}
+
+.full-layer {
+    width:280px;
+}
+
+
+}
+
+@media screen and (max-width:670px){
+.term-footer {
+    flex-direction: column;
+    padding:30px 0;
+}
+
+.text-term p {
+    font-size:1rem;
+}
+
+.autor-footer p {
+ font-size: 1rem;
+ margin-top: 2rem;
+}
+
+}
+
+@media screen and (max-width:602px){
+.form-card {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+
+}
+
+@media screen and (max-width:569px){
+    .title-about h2 {
+    font-size: 2rem;
+    max-width:500px;
+    text-align: center;
+    margin:10px auto;
+}
+}
+
+@media screen and (max-width:567px){
+.grid-galery {
+   grid-template-columns: repeat(1,1fr);
+   max-width: 250px;
+    
+}
+
+.image-item {
+    width: 350px;
+    height:350px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+}
+
+@media screen and (max-width:430px){
+section.hero-bg .flex-all {
+  justify-content:space-around;
+   
+}
+
+.wrapper-main {
+    padding:0;
+    position: relative;
+    top:300px;
+}
+
+.text-term p {
+    font-size: 1rem;
+    text-align: center;
+}
+}
+
+@media screen and (max-width:390px){
+    .wrapper-main {
+        padding:0;
+        top:260px;
+    }
+
+.space-grop{
+ margin-bottom: 1rem;
+} 
+
+.title-main  h1{
+    font-size:2rem;
+}
+
+.text-main p {
+    font-size: 1rem;
+    max-width: 380px;
+}
+
+.item-desk {
+    gap:0.4rem;
+}
+
+.text-single h2 { 
+    font-size:1.5rem;
+}
+
+
+.left-img img{
+  width: 400px;
+}
+
+.form-row {
+  display:block;
+}
+
+.form-group {
+ margin-bottom:1rem;
+}
+
+}
+
+@media screen and (max-width:375px){
+      .wrapper-main {
+        padding:0;
+        top:180px;
+    }
+
+    .title-main  h1{
+    font-size:1.8rem;
+}
+
+.buttons-main .btn-bg a {
+ display: none;
+}
+
+.title-servicos h2 {
+   
+    font-size: 1.8rem;
+    max-width:400px;
+    text-transform: uppercase;
+    
+}
+}
+
+/***/
